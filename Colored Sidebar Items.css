@@ -33,17 +33,6 @@ customization. Just swap out the color variable names in the prefix groups.
   --hot-red: #e3365e;
   --cool-gray: #515768;
 
-  /* ================================ Prefix Config ================================ */
-  --prefix-00: var(--mint);
-  --prefix-01: var(--cyan);
-  --prefix-02: var(--light-blue);
-  --prefix-03: var(--blue);
-  --prefix-04: var(--violet);
-  --prefix-05: var(--purple);
-  --prefix-06: var(--magenta);
-  --prefix-07: var(--hot-red);
-  --prefix-99: var(--cool-gray);
-
   --default-text-color: #d0d0d0;
   --highlight: #fff;
   --shadow: #0b0c2c;
@@ -67,6 +56,17 @@ customization. Just swap out the color variable names in the prefix groups.
   --cyan: color-mix(in srgb, #51e1e9 85%, var(--shadow));
   --cool-cyan: color-mix(in srgb, #43cfea 85%, var(--shadow));
   --light-blue: color-mix(in srgb, #54b6f8 90%, var(--shadow));
+
+  /* ================================ Prefix Config ================================ */
+  --prefix-00: var(--mint);
+  --prefix-01: var(--cyan);
+  --prefix-02: var(--light-blue);
+  --prefix-03: var(--blue);
+  --prefix-04: var(--violet);
+  --prefix-05: var(--purple);
+  --prefix-06: var(--magenta);
+  --prefix-07: var(--hot-red);
+  --prefix-99: var(--cool-gray);
 }
 
 /* Dark Theme Specific Properties */
@@ -76,6 +76,17 @@ customization. Just swap out the color variable names in the prefix groups.
   --fg-contrast-amount: 40%;
   --medium-contrast-amount: 20%;
   --active-contrast-amount: 10%;
+
+  /* ================================ Prefix Config ================================ */
+  --prefix-00: var(--mint);
+  --prefix-01: var(--cyan);
+  --prefix-02: var(--light-blue);
+  --prefix-03: var(--blue);
+  --prefix-04: var(--violet);
+  --prefix-05: var(--purple);
+  --prefix-06: var(--magenta);
+  --prefix-07: var(--hot-red);
+  --prefix-99: var(--cool-gray);
 }
 
 /* All Folder Titles */
