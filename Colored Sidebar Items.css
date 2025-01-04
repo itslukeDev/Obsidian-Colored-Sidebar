@@ -57,7 +57,7 @@ customization. Just swap out the color variable names in the prefix groups.
   --cool-cyan: color-mix(in srgb, #43cfea 85%, var(--shadow));
   --light-blue: color-mix(in srgb, #54b6f8 90%, var(--shadow));
 
-  /* ================================ Prefix Config ================================ */
+  /* Prefix Config */
   --prefix-00: var(--mint);
   --prefix-01: var(--cyan);
   --prefix-02: var(--light-blue);
@@ -77,7 +77,7 @@ customization. Just swap out the color variable names in the prefix groups.
   --medium-contrast-amount: 20%;
   --active-contrast-amount: 10%;
 
-  /* ================================ Prefix Config ================================ */
+  /* Prefix Config */
   --prefix-00: var(--mint);
   --prefix-01: var(--cyan);
   --prefix-02: var(--light-blue);
