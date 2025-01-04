@@ -47,11 +47,20 @@ The snippet targets folders beginning with numbered prefixes (00 through 07, plu
 
 ### Adding Additional Folders
 
-1. Copy one of the groups of CSS classes that target the same prefix
-2. Change the duplicated prefix and replace any instance of a prefix variable (e.g., `--prefix-01`) with your desired color variable
-
 > [!NOTE]
 > Several built-in color variables are included but not used by default. These are from a matching palette that you're welcome to use for expanding your colored sidebar!
+
+#### VSCode
+
+1. With this repository open, Navigate to the bottom of the prefix groups.
+2. Bring up the command palate and search for `Snippets: Insert Snippet`
+3. Select the `obsprefix`
+4. With all off the group's selectors selected automatically, begin to type your desired number, letter, or word for your new prefix.
+
+#### Manual
+
+1. Copy one of the groups of CSS classes that target the same prefix
+2. Change the duplicated prefix and replace any instance of a prefix variable (e.g., `--prefix-01`) with your desired color variable
 
 ---
 
